@@ -42,8 +42,8 @@ This Flutter project demonstrates a paginated list view with two-way pagination.
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <project-folder>
+   git clone https://github.com/DarkImpact1/flutterProject.git
+   cd flutterProject
    ```
 2. Fetch the dependencies:
    ```bash
@@ -119,10 +119,6 @@ flutter pub get
 3. **Error Handling**:
    - Simulate an error by adding `throw Exception("Simulated error")` in `mock_api.dart` and verify the error message display.
 
-4. **Search Bar** (if implemented):
-   - Enter a keyword to filter the list.
-   - Verify that the search results match the query.
-   - Scroll to load additional matching items.
 
 ---
 
@@ -156,7 +152,4 @@ Contributions are welcome! To contribute:
 5. Open a pull request.
 
 ---
-
-## License
-This project is licensed under the MIT License.
 
